@@ -179,7 +179,7 @@ class MatchingPuzzleHelper(object):
         """输入棋盘目标状态"""
         target = []
         print("Please input the target board:")
-        print("D: 八边形, O: 原型, E: 方形, +: 加号, *: 星型, 空格: 空白")
+        print("D: 八边形, O: 圆型, E: 方形, +: 加号, *: 星型, 空格: 空白")
         for i in range(Board.ROWS):
             target.append(input('Please input row %d: ' % (i+1)))
         self.board = Board(target)
